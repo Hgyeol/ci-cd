@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'hello AWS world'
+    return 'hello AWS world!'
 
 @app.route('/health')
 def health():
