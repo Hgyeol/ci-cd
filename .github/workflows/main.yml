@@ -12,7 +12,7 @@ env:
   AWS_REGION: ap-northeast-2
   S3_BUCKET: bssm-flask-artifacts-0315
   APP_NAME: cicd-test
-  DEPLOY_GROUP: flaskapp-prod
+  DEPLOY_GROUP: moduform_instance
   PACKAGE: flaskapp-${{ github.sha }}.zip
 
 jobs:
