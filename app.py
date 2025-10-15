@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'hi AWS world / .env 테스트 : {}'.format(con.DB_SCHEMA)
+    return 'hi AWS world'
 
 @app.route('/health')
 def health():
