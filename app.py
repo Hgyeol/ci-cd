@@ -29,4 +29,4 @@ def health():
 if __name__ == '__main__':
     # db = pymysql.connect(host=con.DB_HOST, user=con.DB_USER, password=con.DB_PASSWORD, db=con.DB_SCHEMA)
     # print("connect ok")
-    app.run(host='0.0.0.0',port=5000)
+    app.run(host='0.0.0.0',port=8000)
